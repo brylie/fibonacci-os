@@ -2,15 +2,24 @@
 
 This directory is a manual Fibonacci OS walkthrough for the opportunity:
 
-> Build an authoritative, structured directory of public websites, digital portals, official services, regional resources, and trusted organisations supporting immigrants, foreign workers, international students, refugees, and relocating families in Finland.
+> Build an authoritative, structured directory of public websites, digital
+> portals, official services, regional resources, and trusted organisations
+> supporting immigrants, foreign workers, international students, refugees, and
+> relocating families in Finland.
 
 ## Purpose
 
-The prototype tests whether roles, canonical artefacts, and a small workflow produce coherent decision support. It is not an exhaustive survey of Finnish services, a product specification, or a final investment recommendation.
+The prototype tests whether roles, canonical artefacts, and a small workflow
+produce coherent decision support. It is not an exhaustive survey of Finnish
+services, a product specification, or a final investment recommendation.
 
 ## Evidence Boundary
 
-The primary evidence for this walkthrough is the opportunity statement supplied for the prototype and the Fibonacci OS documentation. No external research was conducted for these artefacts. Claims about the current service landscape, user needs, source authority, legal status, regional coverage, or demand require external validation.
+The primary evidence for this walkthrough is the opportunity statement supplied
+for the prototype and the Fibonacci OS documentation. No external research was
+conducted for these artefacts. Claims about the current service landscape, user
+needs, source authority, legal status, regional coverage, or demand require
+external validation.
 
 ## Workflow
 

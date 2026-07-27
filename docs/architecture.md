@@ -1,24 +1,31 @@
 # Architecture
 
-> *Fibonacci OS is an operating system for entrepreneurial practice. Its architecture organises principles, knowledge, people, artificial intelligence, and work into a coherent system for creating sustainable value.*
+> _Fibonacci OS is an operating system for entrepreneurial practice. Its
+> architecture organises principles, knowledge, people, artificial intelligence,
+> and work into a coherent system for creating sustainable value._
 
-This document describes the conceptual architecture of Fibonacci OS. It is intentionally independent of any programming language, software framework, or implementation.
+This document describes the conceptual architecture of Fibonacci OS. It is
+intentionally independent of any programming language, software framework, or
+implementation.
 
 ---
 
-# Architectural Principles
+## Architectural Principles
 
 The architecture is guided by five principles:
 
 - **Human-centred** — Humans define goals and make final decisions.
-- **AI-assisted** — Artificial intelligence amplifies, but does not replace, human capability.
-- **Evidence-driven** — Decisions are informed by observation, experimentation, and measurement.
-- **Modular** — Components can evolve independently while remaining interoperable.
+- **AI-assisted** — Artificial intelligence amplifies, but does not replace,
+  human capability.
+- **Evidence-driven** — Decisions are informed by observation, experimentation,
+  and measurement.
+- **Modular** — Components can evolve independently while remaining
+  interoperable.
 - **Composable** — Small, reusable building blocks create more capable systems.
 
 ---
 
-# Layers of the Operating System
+## Layers of the Operating System
 
 Fibonacci OS is organised into five conceptual layers.
 
@@ -68,7 +75,7 @@ Each layer builds upon the one above it.
 
 ---
 
-# Foundation Layer
+## Foundation Layer
 
 The foundation defines **why** the operating system exists.
 
@@ -78,11 +85,12 @@ It consists of:
 - **Constitution** — the enduring principles.
 - **Vision** — the long-term direction.
 
-These documents should change infrequently and guide every other architectural decision.
+These documents should change infrequently and guide every other architectural
+decision.
 
 ---
 
-# Operating System Layer
+## Operating System Layer
 
 This layer defines **how the system operates**.
 
@@ -100,11 +108,14 @@ This layer provides structure without dictating individual projects.
 
 ### Shared Artefacts
 
-Shared artefacts are the human-readable documents exchanged between roles and workflow stages. They provide a stable language for collaboration without requiring a particular runtime or machine schema. Their canonical forms are defined in [`docs/artefacts.md`](artefacts.md).
+Shared artefacts are the human-readable documents exchanged between roles and
+workflow stages. They provide a stable language for collaboration without
+requiring a particular runtime or machine schema. Their canonical forms are
+defined in [`docs/artefacts.md`](artefacts.md).
 
 ---
 
-# Execution Layer
+## Execution Layer
 
 This is where work happens.
 
@@ -136,7 +147,7 @@ Learning is considered a successful outcome regardless of commercial success.
 
 ---
 
-# Learning Layer
+## Learning Layer
 
 Knowledge generated through execution is captured rather than discarded.
 
@@ -154,7 +165,7 @@ The operating system becomes more valuable as knowledge accumulates.
 
 ---
 
-# Evolution Layer
+## Evolution Layer
 
 Fibonacci OS continuously improves itself.
 
@@ -167,25 +178,29 @@ Learning produces:
 - refined practices
 - stronger communities
 
-Every completed project should strengthen the operating system for future projects.
+Every completed project should strengthen the operating system for future
+projects.
 
 ---
 
-# Core Components
+## Core Components
 
 The operating system consists of several interacting components.
 
-## Workspace
+### Workspace
 
 The workspace stores all knowledge and project artefacts.
 
-It provides a consistent organisational structure independent of software implementation.
+It provides a consistent organisational structure independent of software
+implementation.
 
 ---
 
-## Agents
+### Agents
 
-Agents define specialised operating-system roles. A role may be implemented by a human, AI system, deterministic service, workflow, or combination of these. The canonical role definition is independent of implementation.
+Agents define specialised operating-system roles. A role may be implemented by a
+human, AI system, deterministic service, workflow, or combination of these. The
+canonical role definition is independent of implementation.
 
 Examples include:
 
@@ -201,19 +216,25 @@ Agents collaborate rather than compete.
 
 No single agent possesses complete authority.
 
-Role definitions, orchestration, deployment environments, and user-facing conversation surfaces are separate concerns:
+Role definitions, orchestration, deployment environments, and user-facing
+conversation surfaces are separate concerns:
 
-- **Role definition** describes mission, jurisdiction, responsibilities, inputs, outputs, and constraints.
-- **Behavioural instructions** adapt a role into operational guidance without choosing a vendor.
+- **Role definition** describes mission, jurisdiction, responsibilities, inputs,
+  outputs, and constraints.
+- **Behavioural instructions** adapt a role into operational guidance without
+  choosing a vendor.
 - **Orchestration** sequences roles and preserves context for a workflow.
-- **Deployment** adapts a role or orchestration pattern to a runtime and its available tools.
-- **Conversation surface** is where a human interacts with the system, such as a local workspace or team chat.
+- **Deployment** adapts a role or orchestration pattern to a runtime and its
+  available tools.
+- **Conversation surface** is where a human interacts with the system, such as a
+  local workspace or team chat.
 
-The role specification must remain valid if any implementation, orchestrator, or conversation surface is replaced.
+The role specification must remain valid if any implementation, orchestrator, or
+conversation surface is replaced.
 
 ---
 
-## Workflows
+### Workflows
 
 Workflows define repeatable processes.
 
@@ -229,7 +250,7 @@ Workflows evolve as experience grows.
 
 ---
 
-## Templates
+### Templates
 
 Templates reduce repetitive work while encouraging consistency.
 
@@ -246,9 +267,10 @@ Templates capture organisational knowledge.
 
 ---
 
-## Portfolio
+### Portfolio
 
-Rather than focusing on a single venture, Fibonacci OS manages a portfolio of activities.
+Rather than focusing on a single venture, Fibonacci OS manages a portfolio of
+activities.
 
 A portfolio may contain:
 
@@ -264,7 +286,7 @@ The portfolio is diversified intentionally.
 
 ---
 
-# Information Flow
+## Information Flow
 
 Information moves continuously throughout the operating system.
 
@@ -292,7 +314,7 @@ Every cycle increases organisational knowledge.
 
 ---
 
-# Decision Flow
+## Decision Flow
 
 Decision-making remains human-centred.
 
@@ -316,7 +338,7 @@ Responsibility always remains with humans.
 
 ---
 
-# Modularity
+## Modularity
 
 Every component should be replaceable.
 
@@ -331,7 +353,7 @@ Loose coupling encourages long-term sustainability.
 
 ---
 
-# Local-First Design
+## Local-First Design
 
 The architecture prefers systems that:
 
@@ -341,11 +363,12 @@ The architecture prefers systems that:
 - minimise vendor lock-in
 - remain portable across platforms
 
-Cloud services may enhance the operating system but should not become mandatory dependencies unless they provide clear and justified value.
+Cloud services may enhance the operating system but should not become mandatory
+dependencies unless they provide clear and justified value.
 
 ---
 
-# Relationship Between Documents
+## Relationship Between Documents
 
 The documentation forms a coherent hierarchy.
 
@@ -381,10 +404,13 @@ Together they describe the operating system independently of any implementation.
 
 ---
 
-# Evolution
+## Evolution
 
 The architecture is intentionally stable but not static.
 
-As technologies, communities, and entrepreneurial practices evolve, the implementation may change significantly while preserving the underlying principles described in the Philosophy, Constitution, and Vision.
+As technologies, communities, and entrepreneurial practices evolve, the
+implementation may change significantly while preserving the underlying
+principles described in the Philosophy, Constitution, and Vision.
 
-A successful architectural change makes Fibonacci OS simpler, more adaptable, and more effective without compromising its core values.
+A successful architectural change makes Fibonacci OS simpler, more adaptable,
+and more effective without compromising its core values.

@@ -1,16 +1,20 @@
 # Agents
 
-> *Agents are specialised operating-system roles within Fibonacci OS. A role may be carried out by a human, an AI system, deterministic software, a workflow, or a combination of these.*
+> _Agents are specialised operating-system roles within Fibonacci OS. A role may
+> be carried out by a human, an AI system, deterministic software, a workflow,
+> or a combination of these._
 
-Agents are not autonomous decision-makers. The word agent describes a responsibility boundary, not a required software architecture.
+Agents are not autonomous decision-makers. The word agent describes a
+responsibility boundary, not a required software architecture.
 
-They exist to amplify human capability by providing expertise, analysis, automation, and constructive challenge.
+They exist to amplify human capability by providing expertise, analysis,
+automation, and constructive challenge.
 
 Every important decision remains the responsibility of a human.
 
 ---
 
-# Design Principles
+## Design Principles
 
 Every agent should be:
 
@@ -20,11 +24,12 @@ Every agent should be:
 - **Evidence-driven** — distinguish facts from opinions.
 - **Replaceable** — independent of any particular AI model or provider.
 
-The operating system should support adding, removing, or replacing agents without disrupting the rest of the ecosystem.
+The operating system should support adding, removing, or replacing agents
+without disrupting the rest of the ecosystem.
 
 ---
 
-# Agent Lifecycle
+## Agent Lifecycle
 
 Agents participate throughout the lifecycle of a venture.
 
@@ -44,23 +49,30 @@ Review
 Improvement
 ```
 
-Different agents contribute at different stages, but no single agent is responsible for every stage.
+Different agents contribute at different stages, but no single agent is
+responsible for every stage.
 
 ---
 
-# Core Agent Responsibilities
+## Core Agent Responsibilities
 
-The initial release of Fibonacci OS defines seven foundational roles, including the coordinating Fibonacci Facilitator.
+The initial release of Fibonacci OS defines seven foundational roles, including
+the coordinating Fibonacci Facilitator.
 
-Canonical specifications live under [`/agents/`](../agents/). Each role directory separates the role definition, behavioural instructions, evaluation criteria, examples, and deployment guidance. Role outputs should use the shared artefacts defined in [`docs/artefacts.md`](artefacts.md). Deployment guidance is subordinate to the Constitution and canonical role documents.
+Canonical specifications live under [`/agents/`](../agents/). Each role
+directory separates the role definition, behavioural instructions, evaluation
+criteria, examples, and deployment guidance. Role outputs should use the shared
+artefacts defined in [`docs/artefacts.md`](artefacts.md). Deployment guidance is
+subordinate to the Constitution and canonical role documents.
 
-## Fibonacci Facilitator
+### Fibonacci Facilitator
 
-**Mission**
+#### Mission
 
-Coordinate relevant roles into a transparent, human-centred decision-support process.
+Coordinate relevant roles into a transparent, human-centred decision-support
+process.
 
-**Responsibilities**
+#### Responsibilities
 
 - understand the user's objective
 - select or adapt an appropriate workflow
@@ -69,15 +81,16 @@ Coordinate relevant roles into a transparent, human-centred decision-support pro
 - synthesise findings and identify human decisions
 - hand completed decisions and learning to the Archivist
 
-The Facilitator coordinates analysis but does not authorise consequential action or replace specialist analysis with its own opinion.
+The Facilitator coordinates analysis but does not authorise consequential action
+or replace specialist analysis with its own opinion.
 
-## Opportunity Scout
+### Opportunity Scout
 
-**Mission**
+#### Mission
 
 Identify opportunities worth investigating.
 
-**Responsibilities**
+#### Responsibilities
 
 - discover unmet needs
 - identify trends
@@ -86,7 +99,7 @@ Identify opportunities worth investigating.
 - suggest experiments
 - identify adjacent opportunities
 
-**Primary Outputs**
+#### Primary Outputs
 
 - opportunity reports
 - idea briefs
@@ -94,13 +107,13 @@ Identify opportunities worth investigating.
 
 ---
 
-## Skeptical Analyst
+### Skeptical Analyst
 
-**Mission**
+#### Mission
 
 Challenge assumptions before resources are committed.
 
-**Responsibilities**
+#### Responsibilities
 
 - identify weaknesses
 - question assumptions
@@ -109,7 +122,7 @@ Challenge assumptions before resources are committed.
 - request additional evidence
 - highlight uncertainty
 
-**Primary Outputs**
+#### Primary Outputs
 
 - risk assessments
 - critical reviews
@@ -122,13 +135,13 @@ Its role is to improve decisions rather than discourage progress.
 
 ---
 
-## Financial Controller
+### Financial Controller
 
-**Mission**
+#### Mission
 
 Evaluate financial sustainability.
 
-**Responsibilities**
+#### Responsibilities
 
 - estimate costs
 - forecast revenue
@@ -137,7 +150,7 @@ Evaluate financial sustainability.
 - monitor cash flow
 - identify financial risks
 
-**Primary Outputs**
+#### Primary Outputs
 
 - financial projections
 - pricing analyses
@@ -150,13 +163,13 @@ It does not authorise spending.
 
 ---
 
-## Ethics Steward
+### Ethics Steward
 
-**Mission**
+#### Mission
 
 Protect the values of Fibonacci OS.
 
-**Responsibilities**
+#### Responsibilities
 
 - review ethical implications
 - identify unintended harm
@@ -165,23 +178,24 @@ Protect the values of Fibonacci OS.
 - examine environmental impact
 - ensure alignment with the Constitution
 
-**Primary Outputs**
+#### Primary Outputs
 
 - ethical assessments
 - recommendations
 - mitigation strategies
 
-The Ethics Steward may recommend delaying or rejecting projects that conflict with the Constitution.
+The Ethics Steward may recommend delaying or rejecting projects that conflict
+with the Constitution.
 
 ---
 
-## Portfolio Steward
+### Portfolio Steward
 
-**Mission**
+#### Mission
 
 Optimise the health of the overall portfolio.
 
-**Responsibilities**
+#### Responsibilities
 
 - balance priorities
 - allocate attention
@@ -190,7 +204,7 @@ Optimise the health of the overall portfolio.
 - identify strategic opportunities
 - monitor portfolio diversity
 
-**Primary Outputs**
+#### Primary Outputs
 
 - portfolio reviews
 - prioritisation reports
@@ -200,13 +214,13 @@ The Portfolio Steward focuses on the system rather than individual projects.
 
 ---
 
-## Archivist
+### Archivist
 
-**Mission**
+#### Mission
 
 Preserve organisational knowledge.
 
-**Responsibilities**
+#### Responsibilities
 
 - organise documentation
 - capture lessons learned
@@ -215,7 +229,7 @@ Preserve organisational knowledge.
 - archive completed work
 - maintain historical records
 
-**Primary Outputs**
+#### Primary Outputs
 
 - summaries
 - documentation improvements
@@ -226,7 +240,7 @@ Knowledge preserved today becomes an asset tomorrow.
 
 ---
 
-# Collaboration
+## Collaboration
 
 Agents are designed to collaborate rather than compete.
 
@@ -257,13 +271,16 @@ Portfolio Steward
 Archivist
 ```
 
-Each role contributes a different perspective. The Facilitator may coordinate a subset of roles, and a single runtime may perform several roles. In that case the result must be described as a multi-role analysis, not as independent review.
+Each role contributes a different perspective. The Facilitator may coordinate a
+subset of roles, and a single runtime may perform several roles. In that case
+the result must be described as a multi-role analysis, not as independent
+review.
 
 The combination is more valuable than any individual opinion.
 
 ---
 
-# Human Authority
+## Human Authority
 
 Humans remain responsible for:
 
@@ -280,7 +297,7 @@ Humans provide direction.
 
 ---
 
-# Communication Principles
+## Communication Principles
 
 Every agent should:
 
@@ -295,7 +312,7 @@ Clear communication is more valuable than confident communication.
 
 ---
 
-# Disagreement
+## Disagreement
 
 Agents are expected to disagree.
 
@@ -314,7 +331,7 @@ Consensus is desirable, but not required.
 
 ---
 
-# Agent Boundaries
+## Agent Boundaries
 
 Agents should not:
 
@@ -329,9 +346,10 @@ Their purpose is to assist, not to control.
 
 ---
 
-# Extensibility
+## Extensibility
 
-The initial seven roles form the foundation of Fibonacci OS, including the Fibonacci Facilitator.
+The initial seven roles form the foundation of Fibonacci OS, including the
+Fibonacci Facilitator.
 
 Future versions may introduce additional specialists, including:
 
@@ -346,22 +364,29 @@ Future versions may introduce additional specialists, including:
 - Learning Coach
 - Automation Engineer
 
-Each new agent should have a clearly defined purpose and avoid unnecessary overlap with existing roles.
+Each new agent should have a clearly defined purpose and avoid unnecessary
+overlap with existing roles.
 
 ---
 
-# Agent Specifications
+## Agent Specifications
 
 This document provides an overview of the agent ecosystem.
 
-Each individual role is specified in the `/agents/` directory, where its responsibilities, inputs, outputs, jurisdiction, constraints, collaboration, escalation, and evaluation criteria are documented in detail.
+Each individual role is specified in the `/agents/` directory, where its
+responsibilities, inputs, outputs, jurisdiction, constraints, collaboration,
+escalation, and evaluation criteria are documented in detail.
 
-The overview should remain relatively stable, while individual agent specifications evolve with experience and improvements to the operating system.
+The overview should remain relatively stable, while individual agent
+specifications evolve with experience and improvements to the operating system.
 
 ---
 
-# Guiding Principle
+## Guiding Principle
 
 Agents are collaborators, not replacements.
 
-The strength of Fibonacci OS lies not in creating an artificial entrepreneur, but in enabling humans and specialised AI agents to work together—combining curiosity, evidence, ethics, creativity, and experience to make better decisions than either could achieve alone.
+The strength of Fibonacci OS lies not in creating an artificial entrepreneur,
+but in enabling humans and specialised AI agents to work together—combining
+curiosity, evidence, ethics, creativity, and experience to make better decisions
+than either could achieve alone.

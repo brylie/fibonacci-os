@@ -2,9 +2,13 @@
 
 > An open operating system for ethical, AI-assisted entrepreneurship.
 
-Fibonacci OS is an open framework for discovering opportunities, validating ideas, building products, managing portfolios, and continuously learning through evidence-based experimentation.
+Fibonacci OS is an open framework for discovering opportunities, validating
+ideas, building products, managing portfolios, and continuously learning through
+evidence-based experimentation.
 
-Rather than focusing on building a single business, Fibonacci OS helps individuals and organisations develop a repeatable system for creating sustainable value.
+Rather than focusing on building a single business, Fibonacci OS helps
+individuals and organisations develop a repeatable system for creating
+sustainable value.
 
 ## Philosophy
 
@@ -21,26 +25,28 @@ Fibonacci OS is built upon a few core ideas:
 
 Start here:
 
-| Document | Purpose |
-|----------|---------|
-| `docs/philosophy.md` | Why Fibonacci OS exists |
-| `docs/constitution.md` | Core principles and values |
-| `docs/vision.md` | Long-term direction |
-| `docs/architecture.md` | How the operating system is organised |
-| `docs/artefacts.md` | Canonical documents exchanged between roles |
-| `docs/workspace.md` | Workspace organisation |
-| `docs/agents.md` | AI collaboration model |
-| `docs/workflows.md` | Standard lifecycle and processes |
-| `docs/roadmap.md` | Planned evolution |
-| `docs/glossary.md` | Shared terminology |
+| Document               | Purpose                                     |
+| ---------------------- | ------------------------------------------- |
+| `docs/philosophy.md`   | Why Fibonacci OS exists                     |
+| `docs/constitution.md` | Core principles and values                  |
+| `docs/vision.md`       | Long-term direction                         |
+| `docs/architecture.md` | How the operating system is organised       |
+| `docs/artefacts.md`    | Canonical documents exchanged between roles |
+| `docs/workspace.md`    | Workspace organisation                      |
+| `docs/agents.md`       | AI collaboration model                      |
+| `docs/workflows.md`    | Standard lifecycle and processes            |
+| `docs/roadmap.md`      | Planned evolution                           |
+| `docs/glossary.md`     | Shared terminology                          |
 
-The canonical role specifications are maintained in [`agents/README.md`](agents/README.md).
+The canonical role specifications are maintained in
+[`agents/README.md`](agents/README.md).
 
 ## Current Status
 
 Fibonacci OS is in active early development.
 
-The current focus is establishing a strong conceptual foundation before building software implementations.
+The current focus is establishing a strong conceptual foundation before building
+software implementations.
 
 ## Guiding Principles
 
@@ -71,7 +77,9 @@ See `docs/roadmap.md` for details.
 
 Contributions are welcome.
 
-Whether you're interested in entrepreneurship, artificial intelligence, software engineering, design, education, documentation, or research, we'd love to collaborate.
+Whether you're interested in entrepreneurship, artificial intelligence, software
+engineering, design, education, documentation, or research, we'd love to
+collaborate.
 
 Please read `CONTRIBUTING.md` before opening an issue or pull request.
 

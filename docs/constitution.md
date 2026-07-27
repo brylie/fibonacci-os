@@ -1,12 +1,19 @@
 # Constitution
 
-> *This Constitution defines the enduring principles of Fibonacci OS. While tools, workflows, technologies, and implementations will evolve, these principles should remain stable. When there is uncertainty or conflict, this Constitution takes precedence.*
+> _This Constitution defines the enduring principles of Fibonacci OS. While
+> tools, workflows, technologies, and implementations will evolve, these
+> principles should remain stable. When there is uncertainty or conflict, this
+> Constitution takes precedence._
 
 ## Article I — Purpose
 
-The purpose of Fibonacci OS is to help individuals and communities create sustainable value through ethical, AI-assisted entrepreneurship.
+The purpose of Fibonacci OS is to help individuals and communities create
+sustainable value through ethical, AI-assisted entrepreneurship.
 
-Financial success is an important outcome, but it is never the sole objective. The operating system exists to encourage meaningful work, continuous learning, and the responsible creation of products and services that improve people's lives.
+Financial success is an important outcome, but it is never the sole objective.
+The operating system exists to encourage meaningful work, continuous learning,
+and the responsible creation of products and services that improve people's
+lives.
 
 ---
 
@@ -14,7 +21,8 @@ Financial success is an important outcome, but it is never the sole objective. T
 
 Humans are responsible for every significant decision.
 
-Artificial intelligence may advise, analyse, generate, automate, or critique, but it does not possess authority or accountability.
+Artificial intelligence may advise, analyse, generate, automate, or critique,
+but it does not possess authority or accountability.
 
 Responsibility cannot be delegated to software.
 
@@ -35,7 +43,8 @@ Fibonacci OS rejects projects whose primary success depends upon:
 - misinformation
 - violations of privacy or consent
 
-When ethical considerations conflict with commercial interests, ethical considerations take precedence.
+When ethical considerations conflict with commercial interests, ethical
+considerations take precedence.
 
 ---
 
@@ -45,7 +54,9 @@ Ideas should be tested.
 
 Assumptions should be identified explicitly.
 
-Important decisions should be informed by evidence whenever reasonably possible, including research, experiments, customer feedback, measurements, or practical experience.
+Important decisions should be informed by evidence whenever reasonably possible,
+including research, experiments, customer feedback, measurements, or practical
+experience.
 
 Confidence should be proportional to the quality of the available evidence.
 
@@ -55,7 +66,8 @@ Confidence should be proportional to the quality of the available evidence.
 
 Progress should be incremental.
 
-Rather than pursuing rapid growth at any cost, Fibonacci OS encourages sustainable improvements that compound over time.
+Rather than pursuing rapid growth at any cost, Fibonacci OS encourages
+sustainable improvements that compound over time.
 
 Small successes build confidence.
 
@@ -69,9 +81,11 @@ Both contribute to long-term progress.
 
 An experiment is successful if it increases understanding.
 
-Commercial success is valuable, but knowledge gained through unsuccessful experiments is also considered an asset.
+Commercial success is valuable, but knowledge gained through unsuccessful
+experiments is also considered an asset.
 
-Every completed project should leave behind reusable knowledge, documentation, or tools that strengthen the operating system.
+Every completed project should leave behind reusable knowledge, documentation,
+or tools that strengthen the operating system.
 
 ---
 
@@ -79,7 +93,9 @@ Every completed project should leave behind reusable knowledge, documentation, o
 
 Knowledge should be shared whenever practical.
 
-Documentation, workflows, templates, software, and educational resources should be published under open licences whenever doing so does not compromise privacy, security, or legitimate commercial interests.
+Documentation, workflows, templates, software, and educational resources should
+be published under open licences whenever doing so does not compromise privacy,
+security, or legitimate commercial interests.
 
 Private information should remain private.
 
@@ -109,7 +125,8 @@ Complexity should be introduced only when it provides clear value.
 
 Solutions should be understandable, maintainable, and approachable.
 
-The simplest solution that satisfies the requirements should normally be preferred.
+The simplest solution that satisfies the requirements should normally be
+preferred.
 
 ---
 
@@ -136,7 +153,9 @@ Constructive collaboration is encouraged.
 
 Disagreement should focus on ideas rather than individuals.
 
-Contributors should assume good intentions, communicate respectfully, acknowledge uncertainty, and remain willing to revise their opinions when presented with better evidence.
+Contributors should assume good intentions, communicate respectfully,
+acknowledge uncertainty, and remain willing to revise their opinions when
+presented with better evidence.
 
 Healthy communities are built on trust rather than authority.
 
@@ -146,9 +165,11 @@ Healthy communities are built on trust rather than authority.
 
 Short-term gains should never undermine long-term resilience.
 
-Fibonacci OS values durability over trends, sustainability over hype, and reputation over rapid growth.
+Fibonacci OS values durability over trends, sustainability over hype, and
+reputation over rapid growth.
 
-Projects should be designed with the expectation that they may continue to evolve for many years.
+Projects should be designed with the expectation that they may continue to
+evolve for many years.
 
 ---
 
@@ -156,9 +177,11 @@ Projects should be designed with the expectation that they may continue to evolv
 
 This Constitution is intended to be stable, not immutable.
 
-Changes should be rare, carefully considered, and justified by substantial practical experience or compelling ethical reasoning.
+Changes should be rare, carefully considered, and justified by substantial
+practical experience or compelling ethical reasoning.
 
-Operational practices, workflows, technologies, and implementation details may evolve freely provided they remain consistent with the principles defined here.
+Operational practices, workflows, technologies, and implementation details may
+evolve freely provided they remain consistent with the principles defined here.
 
 ---
 
@@ -173,9 +196,11 @@ When making significant decisions, contributors are encouraged to ask:
 5. Will users retain ownership and control?
 6. Is this simpler than the available alternatives?
 7. Would we be comfortable explaining this decision publicly?
-8. If every project followed this approach, would the ecosystem become healthier?
+8. If every project followed this approach, would the ecosystem become
+   healthier?
 
-If the answer to these questions is uncertain, contributors should pause, gather more evidence, and reconsider before proceeding.
+If the answer to these questions is uncertain, contributors should pause, gather
+more evidence, and reconsider before proceeding.
 
 ---
 
@@ -183,6 +208,8 @@ If the answer to these questions is uncertain, contributors should pause, gather
 
 Fibonacci OS exists to help people build things that matter.
 
-Technology, automation, and artificial intelligence are powerful tools, but they are always secondary to human wisdom, integrity, curiosity, and compassion.
+Technology, automation, and artificial intelligence are powerful tools, but they
+are always secondary to human wisdom, integrity, curiosity, and compassion.
 
-The measure of success is not simply what the operating system enables people to earn, but what it enables them to create, learn, share, and contribute.
+The measure of success is not simply what the operating system enables people to
+earn, but what it enables them to create, learn, share, and contribute.

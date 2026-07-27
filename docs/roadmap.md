@@ -1,6 +1,8 @@
 # Roadmap
 
-> *The roadmap describes the planned evolution of Fibonacci OS. It provides direction rather than deadlines. Features may change as the operating system learns from practical experience.*
+> _The roadmap describes the planned evolution of Fibonacci OS. It provides
+> direction rather than deadlines. Features may change as the operating system
+> learns from practical experience._
 
 ## Guiding Principles
 
@@ -11,13 +13,14 @@ The roadmap is guided by four priorities:
 - Learn through practical use.
 - Improve continuously through evidence and community feedback.
 
-Every milestone should leave the operating system more capable, more understandable, and more reusable.
+Every milestone should leave the operating system more capable, more
+understandable, and more reusable.
 
 ---
 
-# Version 0.1 — Foundation
+## Version 0.1 — Foundation
 
-**Objective**
+### Objective
 
 Establish the identity and philosophy of Fibonacci OS.
 
@@ -37,9 +40,9 @@ Success criteria:
 
 ---
 
-# Version 0.2 — Workspace
+## Version 0.2 — Workspace
 
-**Objective**
+### Objective
 
 Create the organisational structure of the operating system.
 
@@ -59,9 +62,9 @@ Success criteria:
 
 ---
 
-# Version 0.3 — Agents
+## Version 0.3 — Agents
 
-**Objective**
+### Objective
 
 Define the collaborative AI ecosystem.
 
@@ -80,9 +83,9 @@ Success criteria:
 
 ---
 
-# Version 0.4 — Workflows
+## Version 0.4 — Workflows
 
-**Objective**
+### Objective
 
 Standardise repeatable entrepreneurial processes.
 
@@ -102,9 +105,9 @@ Success criteria:
 
 ---
 
-# Version 0.5 — Reference Implementation
+## Version 0.5 — Reference Implementation
 
-**Objective**
+### Objective
 
 Use Fibonacci OS to build a real venture.
 
@@ -124,9 +127,9 @@ Success criteria:
 
 ---
 
-# Version 0.6 — Automation
+## Version 0.6 — Automation
 
-**Objective**
+### Objective
 
 Automate repetitive work while preserving human oversight.
 
@@ -146,9 +149,9 @@ Success criteria:
 
 ---
 
-# Version 0.7 — Ecosystem
+## Version 0.7 — Ecosystem
 
-**Objective**
+### Objective
 
 Expand beyond a single implementation.
 
@@ -167,11 +170,12 @@ Success criteria:
 
 ---
 
-# Version 1.0 — Stable Operating System
+## Version 1.0 — Stable Operating System
 
-**Objective**
+### Objective
 
-Deliver a mature, practical operating system for ethical, AI-assisted entrepreneurship.
+Deliver a mature, practical operating system for ethical, AI-assisted
+entrepreneurship.
 
 Expected characteristics:
 
@@ -183,11 +187,12 @@ Expected characteristics:
 - Successful reference projects
 - Comprehensive educational material
 
-Version 1.0 marks the beginning of long-term stewardship rather than the completion of development.
+Version 1.0 marks the beginning of long-term stewardship rather than the
+completion of development.
 
 ---
 
-# Beyond Version 1.0
+## Beyond Version 1.0
 
 Future directions may include:
 
@@ -204,7 +209,7 @@ These ideas remain exploratory until supported by practical evidence.
 
 ---
 
-# How the Roadmap Evolves
+## How the Roadmap Evolves
 
 The roadmap is a living document.
 
@@ -216,11 +221,12 @@ It should evolve in response to:
 - technological change
 - lessons learned
 
-Changes should improve clarity and direction without compromising the principles defined in the Constitution.
+Changes should improve clarity and direction without compromising the principles
+defined in the Constitution.
 
 ---
 
-# Measuring Progress
+## Measuring Progress
 
 Progress is measured by outcomes rather than feature counts.
 

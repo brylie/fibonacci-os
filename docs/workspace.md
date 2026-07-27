@@ -1,21 +1,25 @@
 # Workspace
 
-> *The workspace is the home of Fibonacci OS. It provides a consistent structure for organising knowledge, projects, AI collaboration, and operational assets.*
+> _The workspace is the home of Fibonacci OS. It provides a consistent structure
+> for organising knowledge, projects, AI collaboration, and operational assets._
 
 The workspace is designed to answer a simple question:
 
-> **"If I return to this project in five years, will I immediately understand where everything lives?"**
+> **"If I return to this project in five years, will I immediately understand
+> where everything lives?"**
 
-A predictable structure reduces cognitive load, makes automation easier, and enables both humans and AI agents to navigate the operating system consistently.
+A predictable structure reduces cognitive load, makes automation easier, and
+enables both humans and AI agents to navigate the operating system consistently.
 
 ---
 
-# Design Principles
+## Design Principles
 
 The workspace should be:
 
 - **Human-readable** — understandable without specialised software.
-- **AI-friendly** — organised so agents can reliably discover and process information.
+- **AI-friendly** — organised so agents can reliably discover and process
+  information.
 - **Local-first** — fully functional on a local computer.
 - **Portable** — independent of any cloud provider or vendor.
 - **Modular** — capable of supporting one project or hundreds.
@@ -23,7 +27,7 @@ The workspace should be:
 
 ---
 
-# Workspace Structure
+## Workspace Structure
 
 ```text
 workspace/
@@ -47,7 +51,7 @@ Each directory has a distinct responsibility.
 
 ---
 
-# inbox/
+## inbox/
 
 The inbox is a temporary holding area.
 
@@ -72,7 +76,7 @@ Items should eventually be:
 
 ---
 
-# projects/
+## projects/
 
 Projects are active initiatives.
 
@@ -103,7 +107,7 @@ When complete, they are archived rather than deleted.
 
 ---
 
-# portfolio/
+## portfolio/
 
 The portfolio provides a high-level view of everything being managed.
 
@@ -126,7 +130,7 @@ The portfolio answers:
 
 ---
 
-# research/
+## research/
 
 Research contains information gathered before making decisions.
 
@@ -143,7 +147,7 @@ Research supports evidence-based decision-making.
 
 ---
 
-# workflows/
+## workflows/
 
 Reusable operating procedures.
 
@@ -159,7 +163,7 @@ Workflows evolve continuously as experience grows.
 
 ---
 
-# templates/
+## templates/
 
 Templates eliminate repetitive work.
 
@@ -176,7 +180,7 @@ Templates represent accumulated organisational knowledge.
 
 ---
 
-# agents/
+## agents/
 
 The agents directory contains AI role definitions.
 
@@ -201,7 +205,7 @@ Agents should remain independent and composable.
 
 ---
 
-# finance/
+## finance/
 
 Financial information is organised separately from projects.
 
@@ -221,7 +225,7 @@ Only aggregated or intentionally shared information should become public.
 
 ---
 
-# reviews/
+## reviews/
 
 Reviews capture reflection.
 
@@ -237,7 +241,7 @@ The purpose is continuous improvement rather than judgement.
 
 ---
 
-# decisions/
+## decisions/
 
 Important decisions should be recorded.
 
@@ -254,7 +258,7 @@ Decision records preserve organisational memory.
 
 ---
 
-# knowledge/
+## knowledge/
 
 Knowledge contains reusable information produced by the operating system.
 
@@ -272,7 +276,7 @@ Knowledge should outlive individual projects.
 
 ---
 
-# archive/
+## archive/
 
 Completed work belongs here.
 
@@ -289,7 +293,7 @@ Archived knowledge often becomes valuable again.
 
 ---
 
-# system/
+## system/
 
 The system directory contains the operating system itself.
 
@@ -303,11 +307,12 @@ Examples include:
 - governance
 - operating principles
 
-This directory defines how Fibonacci OS operates independently of the user's projects.
+This directory defines how Fibonacci OS operates independently of the user's
+projects.
 
 ---
 
-# Project Structure
+## Project Structure
 
 Each project should follow a consistent structure.
 
@@ -326,11 +331,12 @@ project/
 └── archive/
 ```
 
-Projects may extend this structure as needed while preserving its overall organisation.
+Projects may extend this structure as needed while preserving its overall
+organisation.
 
 ---
 
-# Public and Private Information
+## Public and Private Information
 
 The workspace intentionally separates public and private information.
 
@@ -353,7 +359,7 @@ Sensitive information should never be committed to public repositories.
 
 ---
 
-# AI Collaboration
+## AI Collaboration
 
 AI agents should treat the workspace as a shared environment.
 
@@ -378,7 +384,7 @@ It is never autonomous.
 
 ---
 
-# Naming Conventions
+## Naming Conventions
 
 Consistency is more valuable than perfection.
 
@@ -394,10 +400,13 @@ Predictable naming simplifies both navigation and automation.
 
 ---
 
-# Evolution
+## Evolution
 
 The workspace is designed to evolve.
 
-New directories, workflows, and tools may be added as Fibonacci OS grows, but changes should preserve the core principles of clarity, consistency, portability, and user ownership.
+New directories, workflows, and tools may be added as Fibonacci OS grows, but
+changes should preserve the core principles of clarity, consistency,
+portability, and user ownership.
 
-A well-organised workspace enables every project to contribute not only to its own success, but to the continual improvement of the operating system itself.
+A well-organised workspace enables every project to contribute not only to its
+own success, but to the continual improvement of the operating system itself.

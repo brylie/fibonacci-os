@@ -1,14 +1,17 @@
 # Workflows
 
-> *Workflows are repeatable processes that transform ideas into knowledge, products, and sustainable value. They capture proven ways of working so that both humans and AI agents can collaborate consistently.*
+> _Workflows are repeatable processes that transform ideas into knowledge,
+> products, and sustainable value. They capture proven ways of working so that
+> both humans and AI agents can collaborate consistently._
 
 A workflow is not a rigid procedure.
 
-It is a structured guide that can be adapted to the needs of a particular project while preserving its essential stages and decision points.
+It is a structured guide that can be adapted to the needs of a particular
+project while preserving its essential stages and decision points.
 
 ---
 
-# Purpose
+## Purpose
 
 Workflows exist to:
 
@@ -24,7 +27,7 @@ Every completed workflow should leave the operating system stronger than before.
 
 ---
 
-# Design Principles
+## Design Principles
 
 Every workflow should be:
 
@@ -36,7 +39,7 @@ Every workflow should be:
 
 ---
 
-# The Standard Lifecycle
+## The Standard Lifecycle
 
 Most work within Fibonacci OS follows a common lifecycle.
 
@@ -68,7 +71,7 @@ Projects may skip or repeat stages depending on their goals.
 
 ---
 
-# Stage 1 — Observe
+## Stage 1 — Observe
 
 Observe the world before attempting to change it.
 
@@ -93,7 +96,7 @@ Typical AI support:
 
 ---
 
-# Stage 2 — Discover
+## Stage 2 — Discover
 
 Transform observations into candidate opportunities.
 
@@ -112,7 +115,7 @@ Outputs:
 
 ---
 
-# Stage 3 — Research
+## Stage 3 — Research
 
 Gather evidence before committing resources.
 
@@ -139,7 +142,7 @@ Typical AI support:
 
 ---
 
-# Stage 4 — Validate
+## Stage 4 — Validate
 
 Test assumptions using the smallest practical experiment.
 
@@ -162,7 +165,7 @@ Outputs:
 
 ---
 
-# Stage 5 — Plan
+## Stage 5 — Plan
 
 If validation supports continued investment, create a plan.
 
@@ -189,7 +192,7 @@ Typical AI support:
 
 ---
 
-# Stage 6 — Build
+## Stage 6 — Build
 
 Create the product or service.
 
@@ -208,7 +211,7 @@ Deliver working results early and improve continuously.
 
 ---
 
-# Stage 7 — Launch
+## Stage 7 — Launch
 
 Release the project to real users.
 
@@ -224,7 +227,7 @@ The launch is the beginning of learning, not the end of development.
 
 ---
 
-# Stage 8 — Operate
+## Stage 8 — Operate
 
 Operate sustainably.
 
@@ -241,7 +244,7 @@ Healthy operations are more valuable than rapid expansion.
 
 ---
 
-# Stage 9 — Review
+## Stage 9 — Review
 
 Pause regularly to reflect.
 
@@ -263,7 +266,7 @@ Every project should include scheduled reviews.
 
 ---
 
-# Stage 10 — Improve
+## Stage 10 — Improve
 
 Apply lessons from previous work.
 
@@ -280,7 +283,7 @@ Knowledge should accumulate over time.
 
 ---
 
-# Stage 11 — Retire or Continue
+## Stage 11 — Retire or Continue
 
 Not every project should continue indefinitely.
 
@@ -293,11 +296,12 @@ Possible outcomes include:
 - archive
 - retire permanently
 
-Ending a project responsibly is considered a successful outcome when it frees resources for more valuable work.
+Ending a project responsibly is considered a successful outcome when it frees
+resources for more valuable work.
 
 ---
 
-# Human Decision Points
+## Human Decision Points
 
 Certain decisions always require human judgement.
 
@@ -316,28 +320,28 @@ Humans remain accountable.
 
 ---
 
-# AI Collaboration
+## AI Collaboration
 
 Different agents contribute throughout the workflow.
 
-| Stage | Primary Agents |
-|--------|----------------|
-| Observe | Opportunity Scout, Archivist |
-| Discover | Opportunity Scout |
-| Research | Opportunity Scout, Skeptical Analyst |
+| Stage    | Primary Agents                          |
+| -------- | --------------------------------------- |
+| Observe  | Opportunity Scout, Archivist            |
+| Discover | Opportunity Scout                       |
+| Research | Opportunity Scout, Skeptical Analyst    |
 | Validate | Skeptical Analyst, Financial Controller |
-| Plan | Financial Controller, Portfolio Steward |
-| Build | Domain-specific agents |
-| Launch | Marketing and Product agents |
-| Operate | Portfolio Steward, Financial Controller |
-| Review | Archivist, Skeptical Analyst |
-| Improve | All relevant agents |
+| Plan     | Financial Controller, Portfolio Steward |
+| Build    | Domain-specific agents                  |
+| Launch   | Marketing and Product agents            |
+| Operate  | Portfolio Steward, Financial Controller |
+| Review   | Archivist, Skeptical Analyst            |
+| Improve  | All relevant agents                     |
 
 Future versions of Fibonacci OS may introduce additional specialised agents.
 
 ---
 
-# Workflow Composition
+## Workflow Composition
 
 Simple workflows can be combined to create larger systems.
 
@@ -349,11 +353,12 @@ Examples include:
 - Quarterly Review Workflow
 - Open Source Release Workflow
 
-Projects should reuse existing workflows whenever practical rather than inventing new ones.
+Projects should reuse existing workflows whenever practical rather than
+inventing new ones.
 
 ---
 
-# Continuous Evolution
+## Continuous Evolution
 
 No workflow is considered complete.
 
@@ -366,14 +371,17 @@ Every execution provides opportunities to:
 - increase clarity
 - improve outcomes
 
-Operational excellence emerges through continual refinement rather than perfect initial design.
+Operational excellence emerges through continual refinement rather than perfect
+initial design.
 
 ---
 
-# Success
+## Success
 
-A workflow is successful when it consistently helps people make better decisions, reduce unnecessary effort, and create meaningful value.
+A workflow is successful when it consistently helps people make better
+decisions, reduce unnecessary effort, and create meaningful value.
 
 The best workflow is not the most detailed.
 
-It is the one that reliably guides humans and AI agents from uncertainty to understanding, from ideas to evidence, and from intention to lasting impact.
+It is the one that reliably guides humans and AI agents from uncertainty to
+understanding, from ideas to evidence, and from intention to lasting impact.

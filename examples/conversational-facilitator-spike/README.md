@@ -6,13 +6,17 @@
 **Owner:** Human project steward  
 **Review date:** After the one-week trial
 
-The parallel runtime comparison is documented in [`parallel-comparison-plan.md`](parallel-comparison-plan.md).
+The parallel runtime comparison is documented in
+[`parallel-comparison-plan.md`](parallel-comparison-plan.md).
 
 ## Purpose
 
-Test whether a ChatGPT Workspace Agent can practically perform the Fibonacci Facilitator role during real day-to-day work.
+Test whether a ChatGPT Workspace Agent can practically perform the Fibonacci
+Facilitator role during real day-to-day work.
 
-This is a learning exercise, not a production implementation. The outcome may confirm, refine, or challenge the current architecture—or show that ChatGPT Workspace is not the appropriate runtime.
+This is a learning exercise, not a production implementation. The outcome may
+confirm, refine, or challenge the current architecture—or show that ChatGPT
+Workspace is not the appropriate runtime.
 
 Evidence is more valuable than confirmation.
 
@@ -89,9 +93,11 @@ Do not build:
 - custom memory systems
 - deployment scripts
 
-The trial should use genuine work with sensitive information redacted or excluded.
+The trial should use genuine work with sensitive information redacted or
+excluded.
 
-If one model performs multiple specialist perspectives, the result must be described as a multi-role analysis rather than independent review.
+If one model performs multiple specialist perspectives, the result must be
+described as a multi-role analysis rather than independent review.
 
 ## Prototype Shape
 
@@ -117,7 +123,8 @@ Experiment Plan or next action
 Lesson Learned
 ```
 
-The exact workflow may change if evidence suggests a better approach. The Facilitator must not make the human decision.
+The exact workflow may change if evidence suggests a better approach. The
+Facilitator must not make the human decision.
 
 ## Preparation
 
@@ -133,11 +140,15 @@ Provide the Workspace Agent with the smallest useful knowledge set:
 - `agents/facilitator/instructions.md`
 - relevant specialist role specifications
 
-Record which instructions, knowledge files, tools, integrations, and memory features are actually enabled. Do not assume that a Workspace capability behaves like a persistent memory system, orchestration engine, or independent agent network.
+Record which instructions, knowledge files, tools, integrations, and memory
+features are actually enabled. Do not assume that a Workspace capability behaves
+like a persistent memory system, orchestration engine, or independent agent
+network.
 
 ## One-Week Trial
 
-Run the Facilitator during genuine work for approximately one week. Suggested activities include:
+Run the Facilitator during genuine work for approximately one week. Suggested
+activities include:
 
 - evaluating an opportunity
 - planning a project
@@ -146,7 +157,9 @@ Run the Facilitator during genuine work for approximately one week. Suggested ac
 - prioritising portfolio work
 - reflecting on a completed experiment
 
-Select three to five realistic, low-risk activities rather than creating artificial demonstrations. Do not force every activity through the full lifecycle. Observe whether the appropriate artefacts emerge naturally.
+Select three to five realistic, low-risk activities rather than creating
+artificial demonstrations. Do not force every activity through the full
+lifecycle. Observe whether the appropriate artefacts emerge naturally.
 
 ## Session Protocol
 
@@ -163,7 +176,8 @@ For each session, record:
 9. Friction and useful moments
 10. Final outcome
 
-The human remains responsible for accepting, revising, or discarding artefacts and for making consequential decisions.
+The human remains responsible for accepting, revising, or discarding artefacts
+and for making consequential decisions.
 
 ## Observation Log
 
@@ -180,14 +194,17 @@ Create one observation for each meaningful finding:
 **Severity:** Low | Medium | High  
 **Architecture Change Needed?:** Yes | No | Unsure  
 **Related Documents:**  
-**Notes:**  
+**Notes:**
 ```
 
-Add a session identifier and links to resulting artefacts where useful. Record observations before proposing architecture changes.
+Add a session identifier and links to resulting artefacts where useful. Record
+observations before proposing architecture changes.
 
 ## Success Criteria
 
-The spike succeeds if it increases understanding of how Fibonacci OS behaves in real conversations—not because the Workspace Agent always follows the design perfectly.
+The spike succeeds if it increases understanding of how Fibonacci OS behaves in
+real conversations—not because the Workspace Agent always follows the design
+perfectly.
 
 Evaluate whether the Facilitator can:
 
@@ -230,7 +247,8 @@ Use three possible outcomes:
 ## Risks and Mitigations
 
 - **Simulated independence:** label multi-role analysis honestly.
-- **Unsupported factual claims:** require sources or mark external validation as pending.
+- **Unsupported factual claims:** require sources or mark external validation as
+  pending.
 - **Artificial task selection:** use genuine varied work.
 - **Excessive structure:** record friction and ignored artefacts.
 - **Unverified memory assumptions:** document observed Workspace behaviour.
@@ -246,4 +264,5 @@ Use three possible outcomes:
 - Observations come before redesign.
 - Many small improvements are preferred to one large redesign.
 
-Treat Fibonacci OS itself as the subject of continuous learning. The goal is not to build the final system, but to help Fibonacci OS learn about itself.
+Treat Fibonacci OS itself as the subject of continuous learning. The goal is not
+to build the final system, but to help Fibonacci OS learn about itself.

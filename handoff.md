@@ -1,12 +1,16 @@
 # Agent Scaffolding Handoff
 
-> Continuation brief for an assistive agent working on the Fibonacci OS repository.
+> Continuation brief for an assistive agent working on the Fibonacci OS
+> repository.
 
 ## Purpose
 
-This document explains the next phase of work for Fibonacci OS: creating the initial `agents/` directory and scaffolding the project's role-based agent system.
+This document explains the next phase of work for Fibonacci OS: creating the
+initial `agents/` directory and scaffolding the project's role-based agent
+system.
 
-The repository has already been seeded with the foundational documentation under `docs/`.
+The repository has already been seeded with the foundational documentation under
+`docs/`.
 
 Before making changes, read:
 
@@ -26,9 +30,10 @@ These documents are the current source of truth.
 
 ---
 
-# Current Direction
+## Current Direction
 
-Fibonacci OS treats agents as **specialised operating-system roles**, not exclusively as AI personalities or vendor-specific assistants.
+Fibonacci OS treats agents as **specialised operating-system roles**, not
+exclusively as AI personalities or vendor-specific assistants.
 
 A role may eventually be implemented by:
 
@@ -38,13 +43,16 @@ A role may eventually be implemented by:
 - an automated workflow
 - a combination of humans and software
 
-The role specification must therefore remain independent of any particular runtime.
+The role specification must therefore remain independent of any particular
+runtime.
 
-ChatGPT Workspace Agents, Claude, Slack-like platforms, command-line tools, and custom applications are all possible deployment environments. None should define the core architecture.
+ChatGPT Workspace Agents, Claude, Slack-like platforms, command-line tools, and
+custom applications are all possible deployment environments. None should define
+the core architecture.
 
 ---
 
-# Objective
+## Objective
 
 Create the initial `agents/` directory and scaffold the following roles:
 
@@ -56,13 +64,14 @@ Create the initial `agents/` directory and scaffold the following roles:
 6. Portfolio Steward
 7. Archivist
 
-The immediate objective is documentation and structure, not runtime implementation.
+The immediate objective is documentation and structure, not runtime
+implementation.
 
 Do not build agent orchestration software yet.
 
 ---
 
-# Recommended Directory Structure
+## Recommended Directory Structure
 
 Create:
 
@@ -137,7 +146,8 @@ agents/
         └── README.md
 ```
 
-This structure may be simplified if the empty directories create unnecessary noise, but preserve the conceptual separation between:
+This structure may be simplified if the empty directories create unnecessary
+noise, but preserve the conceptual separation between:
 
 - role specification
 - behavioural instructions
@@ -147,9 +157,9 @@ This structure may be simplified if the empty directories create unnecessary noi
 
 ---
 
-# Directory Responsibilities
+## Directory Responsibilities
 
-## `agents/README.md`
+### `agents/README.md`
 
 Create an index and overview of the agent system.
 
@@ -161,7 +171,8 @@ It should explain:
 - the human decision-making model
 - how the roles collaborate
 - how new roles may be introduced
-- how deployment-specific instructions are separated from canonical specifications
+- how deployment-specific instructions are separated from canonical
+  specifications
 
 Include a concise collaboration diagram.
 
@@ -190,70 +201,72 @@ Make clear that actual workflows may involve only a subset of roles.
 
 ---
 
-## Role `README.md`
+### Role `README.md`
 
 Each role directory must contain a canonical role specification.
 
 Use the same headings for every role:
 
 ```markdown
-# Role Name
+## Role Name
 
-## Mission
+### Mission
 
-## Purpose
+### Purpose
 
-## Responsibilities
+### Responsibilities
 
-## Inputs
+### Inputs
 
-## Outputs
+### Outputs
 
-## Jurisdiction
+### Jurisdiction
 
-## Constraints
+### Constraints
 
-## Collaboration
+### Collaboration
 
-## Escalation
+### Escalation
 
-## Success Criteria
+### Success Criteria
 
-## Failure Modes
+### Failure Modes
 
-## Example Activities
+### Example Activities
 
-## Implementation Independence
+### Implementation Independence
 ```
 
-The specification must describe **what the role is**, not how a particular model should be prompted.
+The specification must describe **what the role is**, not how a particular model
+should be prompted.
 
 ---
 
-## `instructions.md`
+### `instructions.md`
 
-This file should contain behavioural guidance suitable for adapting into an AI system prompt or Workspace Agent instruction set.
+This file should contain behavioural guidance suitable for adapting into an AI
+system prompt or Workspace Agent instruction set.
 
 Use headings such as:
 
 ```markdown
-# Role Name Instructions
+## Role Name Instructions
 
-## Role
+### Role
 
-## Operating Principles
+### Operating Principles
 
-## Working Method
+### Working Method
 
-## Required Behaviours
+### Required Behaviours
 
-## Prohibited Behaviours
+### Prohibited Behaviours
 
-## Output Expectations
+### Output Expectations
 
-## Handling Uncertainty
+### Handling Uncertainty
 
-## Human Approval Requirements
+### Human Approval Requirements
 ```
 
 Instructions should be:
@@ -268,26 +281,26 @@ Do not include vendor-specific tool syntax in the canonical instructions.
 
 ---
 
-## `evaluation.md`
+### `evaluation.md`
 
 Define how the quality of the role's work can be assessed.
 
 Include:
 
 ```markdown
-# Role Name Evaluation
+## Role Name Evaluation
 
-## Evaluation Goals
+### Evaluation Goals
 
-## Quality Criteria
+### Quality Criteria
 
-## Pass Conditions
+### Pass Conditions
 
-## Warning Signs
+### Warning Signs
 
-## Failure Conditions
+### Failure Conditions
 
-## Test Scenarios
+### Test Scenarios
 ```
 
 Prefer observable criteria.
@@ -302,15 +315,17 @@ Prefer criteria such as:
 
 or:
 
-> The role identifies at least one material risk before recommending further investment.
+> The role identifies at least one material risk before recommending further
+> investment.
 
 Evaluation should cover both task quality and constitutional alignment.
 
 ---
 
-## `examples/`
+### `examples/`
 
-Initially, create only an explanatory `README.md` unless strong examples can be written without inventing project context.
+Initially, create only an explanatory `README.md` unless strong examples can be
+written without inventing project context.
 
 Explain that future examples may contain:
 
@@ -321,13 +336,15 @@ Explain that future examples may contain:
 - human escalation examples
 - completed workflow artefacts
 
-Avoid treating examples as rigid templates unless the format is intentionally normative.
+Avoid treating examples as rigid templates unless the format is intentionally
+normative.
 
 ---
 
-## `deployments/`
+### `deployments/`
 
-Deployment files describe how a canonical role should be adapted for a particular environment.
+Deployment files describe how a canonical role should be adapted for a
+particular environment.
 
 They must not redefine the role.
 
@@ -351,11 +368,12 @@ A deployment must remain subordinate to:
 
 ---
 
-# Platform Independence
+## Platform Independence
 
 The user currently works with both ChatGPT and Claude on desktop.
 
-They are also considering open-source team-chat or Slack-like platforms, including:
+They are also considering open-source team-chat or Slack-like platforms,
+including:
 
 - Rocket.Chat
 - Zulip
@@ -373,15 +391,18 @@ For that reason, avoid assumptions such as:
 - every runtime supports synchronous orchestration
 - every runtime exposes the same tool or approval model
 
-Use the generic term **team-chat deployment** where platform-neutral guidance is sufficient.
+Use the generic term **team-chat deployment** where platform-neutral guidance is
+sufficient.
 
-Platform-specific files can be added later when a runtime is selected and tested.
+Platform-specific files can be added later when a runtime is selected and
+tested.
 
 ---
 
-# The Fibonacci Facilitator
+## The Fibonacci Facilitator
 
-The Facilitator is the highest-priority role because it connects the specialist roles into a coherent user experience.
+The Facilitator is the highest-priority role because it connects the specialist
+roles into a coherent user experience.
 
 Its mission is to:
 
@@ -397,9 +418,10 @@ Its mission is to:
 
 The Facilitator is not a manager with authority over the human.
 
-It may coordinate analysis but may not make consequential decisions on the user's behalf.
+It may coordinate analysis but may not make consequential decisions on the
+user's behalf.
 
-## Facilitator Jurisdiction
+### Facilitator Jurisdiction
 
 The Facilitator may:
 
@@ -422,61 +444,74 @@ The Facilitator may not:
 - publish externally
 - commit the user to a venture
 - present recommendations as human decisions
-- claim that independent agents were consulted when only one model simulated the roles
+- claim that independent agents were consulted when only one model simulated the
+  roles
 
 That final distinction is important.
 
-If a single model performs several roles, it must describe the result as a **multi-role analysis**, not falsely imply that independent systems reviewed the work.
+If a single model performs several roles, it must describe the result as a
+**multi-role analysis**, not falsely imply that independent systems reviewed the
+work.
 
 ---
 
-# Initial Role Intent
+## Initial Role Intent
 
 Use the following as the starting point for each specification.
 
-## Opportunity Scout
+### Opportunity Scout
 
-Identifies unmet needs, emerging opportunities, relevant signals, and testable possibilities.
+Identifies unmet needs, emerging opportunities, relevant signals, and testable
+possibilities.
 
 It should generate hypotheses rather than declare that an opportunity is proven.
 
-## Skeptical Analyst
+### Skeptical Analyst
 
-Challenges assumptions, identifies weak evidence, explores counterarguments, and tests whether a proposal survives critical examination.
+Challenges assumptions, identifies weak evidence, explores counterarguments, and
+tests whether a proposal survives critical examination.
 
 It should improve decisions without becoming reflexively negative.
 
-## Financial Controller
+### Financial Controller
 
-Examines cost, affordability, financial risk, sustainability, cash implications, and the economics of proposed experiments.
+Examines cost, affordability, financial risk, sustainability, cash implications,
+and the economics of proposed experiments.
 
 It advises but does not approve expenditure.
 
-## Ethics Steward
+### Ethics Steward
 
-Examines potential harm, fairness, privacy, accessibility, power, consent, vulnerable groups, environmental consequences, and alignment with the Constitution.
+Examines potential harm, fairness, privacy, accessibility, power, consent,
+vulnerable groups, environmental consequences, and alignment with the
+Constitution.
 
-Material ethical concerns must be surfaced clearly rather than softened for convenience.
+Material ethical concerns must be surfaced clearly rather than softened for
+convenience.
 
-## Portfolio Steward
+### Portfolio Steward
 
-Evaluates how a proposed project fits with existing work, capacity, strategy, dependencies, opportunity cost, and long-term portfolio health.
+Evaluates how a proposed project fits with existing work, capacity, strategy,
+dependencies, opportunity cost, and long-term portfolio health.
 
 It should discourage unmanaged project accumulation.
 
-## Archivist
+### Archivist
 
-Preserves decisions, evidence, assumptions, outcomes, lessons, and reusable knowledge.
+Preserves decisions, evidence, assumptions, outcomes, lessons, and reusable
+knowledge.
 
-It should distinguish current guidance from historical records and avoid silently rewriting prior decisions.
+It should distinguish current guidance from historical records and avoid
+silently rewriting prior decisions.
 
-## Fibonacci Facilitator
+### Fibonacci Facilitator
 
-Coordinates the roles and presents their work as a coherent decision-support process.
+Coordinates the roles and presents their work as a coherent decision-support
+process.
 
 ---
 
-# Jurisdiction Model
+## Jurisdiction Model
 
 Every role specification must distinguish between:
 
@@ -493,11 +528,12 @@ Agents may analyse and advise.
 Humans retain authority for consequential decisions.
 ```
 
-Do not grant roles broad write, publication, purchasing, deletion, or communication authority by default.
+Do not grant roles broad write, publication, purchasing, deletion, or
+communication authority by default.
 
 ---
 
-# Collaboration Rules
+## Collaboration Rules
 
 Roles should not be forced into artificial consensus.
 
@@ -513,9 +549,11 @@ The Facilitator should synthesise without erasing dissent.
 
 The Ethics Steward should not be treated as a ceremonial final check.
 
-The Skeptical Analyst should not be allowed to block all experimentation merely because uncertainty remains.
+The Skeptical Analyst should not be allowed to block all experimentation merely
+because uncertainty remains.
 
-The Financial Controller should distinguish between financial risk and total value.
+The Financial Controller should distinguish between financial risk and total
+value.
 
 The Opportunity Scout should not treat enthusiasm as validation.
 
@@ -525,7 +563,7 @@ The Archivist should record both the decision and its rationale.
 
 ---
 
-# Suggested Workflow for This Scaffolding Task
+## Suggested Workflow for This Scaffolding Task
 
 Proceed in this order:
 
@@ -547,19 +585,20 @@ Prefer concise, meaningful documents.
 
 ---
 
-# Repository Updates
+## Repository Updates
 
 After scaffolding the directory, consider updating:
 
-## Root `README.md`
+### Root `README.md`
 
 Add a link to `agents/README.md`.
 
-## `docs/agents.md`
+### `docs/agents.md`
 
-Confirm that it points readers to the canonical role specifications under `agents/`.
+Confirm that it points readers to the canonical role specifications under
+`agents/`.
 
-## `docs/architecture.md`
+### `docs/architecture.md`
 
 Add or verify the distinction between:
 
@@ -568,7 +607,7 @@ Add or verify the distinction between:
 - deployment environments
 - user-facing conversation surfaces
 
-## `docs/glossary.md`
+### `docs/glossary.md`
 
 Add definitions if they are not already present for:
 
@@ -583,7 +622,7 @@ Do not introduce duplicate terminology unnecessarily.
 
 ---
 
-# Out of Scope
+## Out of Scope
 
 Do not yet implement:
 
@@ -604,7 +643,7 @@ These may follow after the role model has been exercised manually.
 
 ---
 
-# First Practical Milestone
+## First Practical Milestone
 
 The first milestone is complete when:
 
@@ -615,13 +654,15 @@ The first milestone is complete when:
 - role jurisdiction is explicit
 - no file depends on a specific vendor
 - ChatGPT and Claude deployments could both be derived from the documentation
-- a future team-chat deployment could be added without changing the canonical roles
+- a future team-chat deployment could be added without changing the canonical
+  roles
 
 ---
 
-# Recommended First Prototype
+## Recommended First Prototype
 
-After scaffolding is complete, prepare a manual prototype of the Fibonacci Facilitator.
+After scaffolding is complete, prepare a manual prototype of the Fibonacci
+Facilitator.
 
 The prototype should support one workflow:
 
@@ -652,7 +693,7 @@ The repository specifications must remain valid across all four approaches.
 
 ---
 
-# Working Style
+## Working Style
 
 When continuing this work:
 
@@ -669,7 +710,7 @@ When continuing this work:
 
 ---
 
-# Completion Report
+## Completion Report
 
 When the scaffolding work is complete, provide a concise report containing:
 

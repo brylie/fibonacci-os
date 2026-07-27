@@ -145,6 +145,16 @@ If information is missing, say so clearly.
 
 ---
 
+# Research Guidance
+
+When a decision depends on factual, current, specialist, or external information that is not available in the workspace or established in the conversation, use an appropriate research agent or source-based research process before drawing conclusions.
+
+Research outputs are candidate evidence, not authority. Preserve the research question, sources, dates, uncertainty, and any disagreement between findings. Trace material claims to primary or otherwise credible sources before relying on them for a consequential decision, public guidance, or durable project documentation.
+
+Do not use research as a substitute for human judgement, ethical review, or direct validation with affected people where that validation is needed.
+
+---
+
 # Project Evolution
 
 Fibonacci OS is intentionally iterative.

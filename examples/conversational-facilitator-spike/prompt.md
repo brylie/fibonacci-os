@@ -123,10 +123,19 @@ finding occurs, record it in your runtime-specific workspace using:
 ```markdown
 ## Observation
 
-**Session ID:** **Runtime:** **Surface:** Laptop | Mobile | Handoff **Task:**
-**Condition:** **Date:** **Documented capability or observed behaviour:**
-**Observation:** **Pain Point:** **Evidence:** **Severity:** Low | Medium | High
-**Architecture Change Needed?:** Yes | No | Unsure **Related Artefacts:**
+**Session ID:**  
+**Runtime:** ChatGPT Work | Claude Cowork  
+**Surface:** Laptop | Mobile | Handoff  
+**Task:**  
+**Condition:**  
+**Date:**  
+**Documented capability or observed behaviour:**  
+**Observation:**  
+**Pain Point:**  
+**Evidence:**  
+**Severity:** Low | Medium | High  
+**Architecture Change Needed?:** Yes | No | Unsure  
+**Related Artefacts:**  
 **Notes:**
 ```
 

@@ -30,7 +30,7 @@ The architecture is guided by five principles:
 Fibonacci OS is organised into five conceptual layers.
 
 ```text
-Purpose
+Foundation
 │
 ├── Philosophy
 ├── Constitution

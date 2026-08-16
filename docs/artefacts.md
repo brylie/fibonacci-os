@@ -37,16 +37,19 @@ out of context:
 ```markdown
 # [Artefact title]
 
-**Type:** [canonical artefact type] **Status:** Draft | Active | Superseded |
-Archived **Date:** [YYYY-MM-DD] **Author or role:** [person, role, or
-implementation] **Related project or opportunity:** [link or name] **Review
-date:** [date or Not scheduled]
+**Type:** [canonical artefact type]
+**Status:** Draft | Provisional | Active | Superseded | Archived
+**Date:** [YYYY-MM-DD]
+**Author or role:** [person, role, or implementation]
+**Related project or opportunity:** [link or name]
+**Review date:** [date, event trigger, or Not scheduled]
 ```
 
 The body should identify the relevant question or purpose, evidence,
 assumptions, risks or uncertainties, recommendation, confidence, and requested
-decision or next action where applicable. A field may be marked `Not known`
-rather than invented.
+decision or next action where applicable. `Review date` may be a calendar date
+or a workflow trigger (such as `At human decision point` or `Before next experiment`).
+A field may be marked `Not known` rather than invented.
 
 ## Recommendations and Human Decisions
 

@@ -29,6 +29,9 @@ The workspace should be:
 
 ## Workspace Structure
 
+The `workspace/` tree represents the conceptual operational structure of a
+working Fibonacci OS environment:
+
 ```text
 workspace/
 │
@@ -47,7 +50,19 @@ workspace/
 └── system/
 ```
 
-Each directory has a distinct responsibility.
+### Repository Mapping
+
+In this repository (the operating system itself):
+
+- Canonical role specifications map to the root [`agents/`](../agents/)
+  directory.
+- Architectural definitions and workflows map to the canonical
+  [`docs/`](../docs/) directory.
+- Reference walkthroughs and trial plans map to [`examples/`](../examples/).
+- Operational directories (`inbox/`, `projects/`, `finance/`, `decisions/`,
+  `knowledge/`, `archive/`, `system/`) represent runtime venture state rather
+  than framework code, and are instantiated within active working workspaces
+  rather than duplicated as empty repository folders.
 
 ---
 

@@ -244,37 +244,31 @@ Knowledge preserved today becomes an asset tomorrow.
 
 Agents are designed to collaborate rather than compete.
 
-A typical interaction might look like:
+An illustrative interaction coordinated by the Fibonacci Facilitator:
 
 ```text
-Opportunity Scout
-        │
-        ▼
-Research
-        │
-        ▼
-Skeptical Analyst
-        │
-        ▼
-Financial Controller
-        │
-        ▼
-Ethics Steward
-        │
-        ▼
-Human Decision
-        │
-        ▼
-Portfolio Steward
-        │
-        ▼
+Human objective
+      │
+      ▼
+Fibonacci Facilitator
+      ├── Opportunity Scout
+      ├── Skeptical Analyst
+      ├── Financial Controller
+      ├── Ethics Steward
+      └── Portfolio Steward
+      │
+      ▼
+Human decision
+      │
+      ▼
 Archivist
 ```
 
-Each role contributes a different perspective. The Facilitator may coordinate a
-subset of roles, and a single runtime may perform several roles. In that case
-the result must be described as a multi-role analysis, not as independent
-review.
+Each role contributes a different perspective. Actual workflows should use
+only the roles relevant to the question. The Facilitator preserves any
+disagreement, its evidence, and the unresolved human choice. If a single
+runtime performs several roles, the result must be described as a multi-role
+analysis rather than independent review.
 
 The combination is more valuable than any individual opinion.
 

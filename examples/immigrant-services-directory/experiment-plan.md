@@ -31,8 +31,10 @@ will improve outcomes for all groups.
    language, date checked, and known limitations.
 4. Create a simple Markdown prototype containing only the selected entries.
 5. Ask a small, deliberately recruited group of prospective users or helpers to
-   complete the tasks using the current approach and the prototype, in an order
-   that reduces learning bias where practical.
+   complete the tasks using the current approach and the prototype.
+   Counterbalance or randomise whether participants use the current approach or
+   prototype first where practical, and explicitly record each participant's
+   comparison order to reduce and track learning bias.
 6. Conduct a short debrief focused on what they found, misunderstood, trusted,
    or could not use.
 7. Record the maintenance time and any corrections required during the

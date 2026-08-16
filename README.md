@@ -81,8 +81,9 @@ Whether you're interested in entrepreneurship, artificial intelligence, software
 engineering, design, education, documentation, or research, we'd love to
 collaborate.
 
-Please read `CONTRIBUTING.md` before opening an issue or pull request.
+Please read [`AGENTS.md`](AGENTS.md) and the documentation in [`docs/`](docs/)
+before opening an issue or pull request.
 
 ## License
 
-Fibonacci OS is released under the Apache 2.0 License.
+Fibonacci OS is released under the [Apache 2.0 License](LICENSE).

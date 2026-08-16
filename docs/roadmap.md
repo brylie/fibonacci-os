@@ -18,7 +18,7 @@ understandable, and more reusable.
 
 ---
 
-## Version 0.1 — Foundation
+## Version 0.1 — Foundation (Completed)
 
 ### Objective
 
@@ -40,7 +40,7 @@ Success criteria:
 
 ---
 
-## Version 0.2 — Workspace
+## Version 0.2 — Workspace (Completed)
 
 ### Objective
 
@@ -62,11 +62,12 @@ Success criteria:
 
 ---
 
-## Version 0.3 — Agents
+## Version 0.3 — Agents (Completed)
 
 ### Objective
 
-Define the collaborative AI ecosystem.
+Define the collaborative AI ecosystem. The initial seven canonical role
+specifications and collaboration patterns are implemented under `agents/`.
 
 Key deliverables:
 
@@ -83,7 +84,7 @@ Success criteria:
 
 ---
 
-## Version 0.4 — Workflows
+## Version 0.4 — Workflows (In Progress)
 
 ### Objective
 
@@ -105,11 +106,11 @@ Success criteria:
 
 ---
 
-## Version 0.5 — Reference Implementation
+## Version 0.5 — Reference Implementation (In Progress)
 
 ### Objective
 
-Use Fibonacci OS to build a real venture.
+Use Fibonacci OS to build a real venture through manual and prototype walkthroughs.
 
 Key deliverables:
 
@@ -127,7 +128,7 @@ Success criteria:
 
 ---
 
-## Version 0.6 — Automation
+## Version 0.6 — Automation (Planned)
 
 ### Objective
 
@@ -149,7 +150,7 @@ Success criteria:
 
 ---
 
-## Version 0.7 — Ecosystem
+## Version 0.7 — Ecosystem (Planned)
 
 ### Objective
 
@@ -170,7 +171,7 @@ Success criteria:
 
 ---
 
-## Version 1.0 — Stable Operating System
+## Version 1.0 — Stable Operating System (Planned)
 
 ### Objective
 

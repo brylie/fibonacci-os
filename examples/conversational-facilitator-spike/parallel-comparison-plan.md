@@ -140,7 +140,7 @@ Run at least these conditions when supported:
 | ----------------------------- | ------------------ | ------------------ | ------------------------------------------------------------ |
 | Foreground conversation       | Start and continue | Not applicable     | Baseline Facilitator UX                                      |
 | Laptop-to-mobile continuation | Start              | Continue           | Context handoff and mobile control                           |
-| Mobile-to-laptop continuation | Start              | Continue on laptop | Whether mobile input can initiate useful work                |
+| Mobile-to-laptop continuation | Continue on laptop | Start              | Whether mobile input can initiate useful work                |
 | Away-from-device task         | Start              | Check and steer    | Whether asynchronous work is understandable and controllable |
 
 If a condition is unavailable in one environment, record it as unavailable

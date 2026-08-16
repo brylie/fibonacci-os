@@ -2,21 +2,24 @@
 
 **Type:** Technical spike plan  
 **Status:** Planned  
-**Date:** 2026-07-27  
+**Authoring date:** 2026-07-27  
+**Trial start:** 2026-07-27  
+**Trial end:** 2026-08-03  
 **Owner:** Human project steward  
-**Review date:** After the one-week trial
+**Review date:** 2026-08-04 (after the one-week trial)
 
 The parallel runtime comparison is documented in
 [`parallel-comparison-plan.md`](parallel-comparison-plan.md).
 
 ## Purpose
 
-Test whether a ChatGPT Workspace Agent can practically perform the Fibonacci
-Facilitator role during real day-to-day work.
+Test whether a configured Facilitator agent within ChatGPT Work (referred to as
+a Workspace Agent) can practically perform the Fibonacci Facilitator role during
+real day-to-day work.
 
 This is a learning exercise, not a production implementation. The outcome may
 confirm, refine, or challenge the current architecture—or show that ChatGPT
-Workspace is not the appropriate runtime.
+Work is not the appropriate runtime.
 
 Evidence is more valuable than confirmation.
 

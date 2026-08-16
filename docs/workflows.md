@@ -322,7 +322,11 @@ Humans remain accountable.
 
 ## AI Collaboration
 
-Different agents contribute throughout the workflow.
+Different agents contribute throughout the workflow. The table below is
+illustrative rather than exhaustive: the Fibonacci Facilitator coordinates the
+relevant subset of roles required for each specific stage or decision, and the
+Ethics Steward participates whenever ethical review, user rights, or
+constitutional alignment is involved.
 
 | Stage    | Primary Agents                          |
 | -------- | --------------------------------------- |

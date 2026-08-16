@@ -52,20 +52,25 @@ the core architecture.
 
 ---
 
-## Objective
+## Objective and Status
 
-Create the initial `agents/` directory and scaffold the following roles:
+The initial `agents/` directory and canonical specifications for all seven
+roles are now complete:
 
-1. Fibonacci Facilitator
-2. Opportunity Scout
-3. Skeptical Analyst
-4. Financial Controller
-5. Ethics Steward
-6. Portfolio Steward
-7. Archivist
+1. Fibonacci Facilitator (`agents/facilitator/`)
+2. Opportunity Scout (`agents/opportunity-scout/`)
+3. Skeptical Analyst (`agents/skeptical-analyst/`)
+4. Financial Controller (`agents/financial-controller/`)
+5. Ethics Steward (`agents/ethics-steward/`)
+6. Portfolio Steward (`agents/portfolio-steward/`)
+7. Archivist (`agents/archivist/`)
 
-The immediate objective is documentation and structure, not runtime
-implementation.
+Remaining documentation tasks include runtime-specific deployment guides
+(such as `chatgpt.md`, `claude.md`, and `team-chat.md` under
+`agents/facilitator/deployments/`).
+
+The immediate objective remains documentation and structure, not runtime
+orchestration software.
 
 Do not build agent orchestration software yet.
 
@@ -661,10 +666,10 @@ The first milestone is complete when:
 
 ## Recommended First Prototype
 
-After scaffolding is complete, prepare a manual prototype of the Fibonacci
-Facilitator.
+After role specifications are established, prepare a manual prototype of the
+Fibonacci Facilitator.
 
-The prototype should support one workflow:
+The prototype can exercise an illustrative linear review workflow:
 
 ```text
 Opportunity

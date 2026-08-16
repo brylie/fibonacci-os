@@ -31,12 +31,24 @@ Facilitator did not add a separate market, legal, or service-landscape analysis.
 ## Points of Convergence
 
 - A national directory build is not supported by the current evidence.
+  **Sources:** [`critical-review.md`](critical-review.md),
+  [`financial-assessment.md`](financial-assessment.md),
+  [`portfolio-assessment.md`](portfolio-assessment.md).
 - The opportunity is concrete enough to investigate through bounded tasks.
+  **Sources:** [`opportunity-brief.md`](opportunity-brief.md),
+  [`critical-review.md`](critical-review.md).
 - Accuracy, provenance, scope, accessibility, and maintenance are central risks.
+  **Sources:** [`critical-review.md`](critical-review.md),
+  [`ethics-assessment.md`](ethics-assessment.md),
+  [`financial-assessment.md`](financial-assessment.md).
 - The experiment should avoid sensitive personal data and should not present
   directory information as personal advice.
+  **Sources:** [`ethics-assessment.md`](ethics-assessment.md).
 - A human must approve scope, budget, participant safeguards, and any public
   release.
+  **Sources:** [`ethics-assessment.md`](ethics-assessment.md),
+  [`financial-assessment.md`](financial-assessment.md),
+  [`portfolio-assessment.md`](portfolio-assessment.md).
 
 ## Preserved Disagreement and Tension
 
@@ -46,6 +58,7 @@ The Opportunity Scout frames a plausible value proposition. The Skeptical
 Analyst notes that the underlying problem may be language, complexity, or
 existing-service navigation rather than absence of a directory. The unresolved
 question is whether a new directory is the right intervention.
+**Sources:** [`opportunity-brief.md`](opportunity-brief.md), [`critical-review.md`](critical-review.md).
 
 ### “Authoritative” versus safe scope
 
@@ -54,6 +67,7 @@ this creates a high burden and should not be used publicly until provenance,
 review, and safety evidence support it. The Facilitator does not resolve this
 disagreement; the experiment should test a narrower claim such as attributed and
 reviewable information.
+**Sources:** [`opportunity-brief.md`](opportunity-brief.md), [`ethics-assessment.md`](ethics-assessment.md).
 
 ### Public value versus sustainability
 
@@ -62,6 +76,7 @@ driver without inventing a numeric estimate. The Portfolio Steward sees
 potential alignment with Fibonacci OS but warns against creating an unbounded
 obligation. The unresolved question is whether protected capacity or funding
 exists for stewardship.
+**Sources:** [`financial-assessment.md`](financial-assessment.md), [`portfolio-assessment.md`](portfolio-assessment.md).
 
 ## Options Presented by the Roles
 

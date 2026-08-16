@@ -45,15 +45,20 @@ Provisional Lesson Learned
 
 ## Artefacts
 
+### Canonical Artefacts
+
 - [`opportunity-brief.md`](opportunity-brief.md)
 - [`critical-review.md`](critical-review.md)
 - [`ethics-assessment.md`](ethics-assessment.md)
 - [`financial-assessment.md`](financial-assessment.md)
 - [`portfolio-assessment.md`](portfolio-assessment.md)
-- [`facilitator-synthesis.md`](facilitator-synthesis.md)
 - [`decision-record.md`](decision-record.md)
 - [`experiment-plan.md`](experiment-plan.md)
 - [`lesson-learned.md`](lesson-learned.md)
-- [`validation-report.md`](validation-report.md)
+
+### Coordination Views and Validation Records
+
+- [`facilitator-synthesis.md`](facilitator-synthesis.md) *(Coordination View)*
+- [`validation-report.md`](validation-report.md) *(Architectural Validation Report)*
 
 All artefacts are drafts or provisional until a human reviews and accepts them.

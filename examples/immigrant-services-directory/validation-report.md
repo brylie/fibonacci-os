@@ -140,17 +140,18 @@ specialist findings from coordination observations.
 
 ### Evidence-supported now
 
-No canonical structural change is required after one walkthrough. The existing
-model was sufficient to complete the exercise and preserve the important
+No further canonical structural change is required after this walkthrough. The
+working model was sufficient to complete the exercise and preserve important
 boundaries.
 
-The following clarification is supported and should be considered for a future
-small documentation patch if repeated:
+The initial clarifications supported by this walkthrough have been incorporated
+into the canonical documentation:
 
-- define the Facilitator's assembled decision brief as a coordination view or
-  explicitly state that it is not a canonical artefact
-- clarify that `Recommendation` is role-owned while `Requested Decision` is
-  human-owned
+- The Facilitator's assembled decision brief is defined as a Coordination View
+  rather than a standalone canonical specialist artefact (`docs/artefacts.md`,
+  `agents/facilitator/instructions.md`).
+- `Recommendation` is defined as role-owned analysis advice, while
+  `Requested Decision` is explicitly human-owned (`docs/artefacts.md`).
 
 ### Speculative improvements to test later
 

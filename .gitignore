@@ -2,3 +2,6 @@
 # Keep canonical documentation and reviewed artefacts under version control;
 # keep tool-specific prompts, transcripts, drafts, and temporary files local.
 /workspace/
+
+# macOS metadata
+.DS_Store
